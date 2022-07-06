@@ -1,0 +1,146 @@
+:root {
+    --red: #970000;
+    --red2: #680000;
+    --yellow: #bf8e4f;
+    --white: #faebd7;
+    --black: black;
+}
+
+body {
+    background: url(../images/aoe-background.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    font-family: 'Castoro', serif;
+}
+
+/* -- HEADER -- */
+
+.navbar {
+    background: linear-gradient(var(--red), var(--red2));
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+    transition: 0.2s linear;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.05);
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.nav {
+    margin-right: 20px;
+    z-index: 3;
+}
+
+.nav-item {
+    background-color: var(--white);
+    border: 4px groove var(--yellow);
+    transition: 0.2s linear;
+    margin: 0;
+}
+
+.nav-item:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.nav-link {
+    color: var(--red);
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: var(--black);
+}
+
+@media only screen and (max-width:768px) {
+    .navbar-brand img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .nav {
+        margin: 0;
+        display: block;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .navbar {
+        justify-content: center;
+    }
+
+    .navbar-brand {
+        margin: 0 auto;
+    }
+
+    .nav {
+        margin: 0 auto;
+    }
+}
+
+/* -- MAIN -- */
+
+.main-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 100px 20px 20px 20px;
+    background-color: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    min-height: 100vh;
+}
+
+@media only screen and (max-width:992px) {
+    .main-container {
+        width: 80%;
+        padding: 150px 20px 20px 20px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .main-container {
+        width: 100%;
+        padding: 300px 20px 20px 20px;
+    }
+}
+
+h2 {
+    color: var(--red);
+    border-bottom: 1px solid var(--red);
+}
+
+.btn {
+    background-color: var(--yellow);
+    color: var(--red);
+}
+
+p i {
+    font-size: 14px;
+}
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+}
+.contact-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact-details{
+    color: var(--red);
+    text-decoration: none;
+    margin:0 5px;
+}
+.contact-details:hover{
+    color: var(--red2);
+}
