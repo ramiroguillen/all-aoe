@@ -114,7 +114,7 @@ body {
     }
 }
 
-h2 {
+h2, h3 {
     color: var(--red);
     border-bottom: 1px solid var(--red);
 }
@@ -143,4 +143,19 @@ p i {
 }
 .contact-details:hover{
     color: var(--red2);
+}
+
+.tournament-link {
+    color: var(--red);
+    text-decoration: none;
+    margin:10px;
+    font-size: 18px;
+}
+.tournament-link:hover {
+    color: var(--red2);
+}
+
+.build-orders-container {
+    width: 90%;
+    margin: 0 auto;
 }
