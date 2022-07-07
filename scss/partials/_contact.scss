@@ -1,0 +1,31 @@
+.btn {
+    background-color: var(--yellow);
+    color: var(--red);
+}
+
+p {
+    i {
+        font-size: 14px;
+    }
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-details {
+    color: var(--red);
+    text-decoration: none;
+    margin: 0 5px;
+
+    &:hover {
+        color: var(--red2);
+    }
+}

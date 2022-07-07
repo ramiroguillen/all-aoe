@@ -1,0 +1,10 @@
+.tournament-link {
+    color: var(--red);
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+
+    &:hover {
+        color: var(--red2);
+    }
+}

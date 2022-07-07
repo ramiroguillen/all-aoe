@@ -1,0 +1,22 @@
+:root {
+    --red: #970000;
+    --red2: #680000;
+    --yellow: #bf8e4f;
+    --white: #faebd7;
+    --black: black;
+}
+
+body {
+    background: url(../images/aoe-background.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    font-family: 'Castoro', serif;
+}
+
+@import 'partials/header';
+@import 'partials/main';
+@import 'partials/civs';
+@import 'partials/builds';
+@import 'partials/tournaments';
+@import 'partials/contact';

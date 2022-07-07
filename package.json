@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "name": "web-design",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramiroguillen/coderhouse-web-design.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramiroguillen/coderhouse-web-design/issues"
+  },
+  "homepage": "https://github.com/ramiroguillen/coderhouse-web-design#readme",
+  "description": ""
+}

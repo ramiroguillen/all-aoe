@@ -1,0 +1,32 @@
+.build-orders-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.civ-card {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.list-container {
+    margin: 0 auto;
+}
+
+.builds-list {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.build-link {
+    color: var(--red);
+    text-decoration: none;
+    margin: 5px;
+
+    &:hover {
+        color: var(--red2);
+    }
+}
