@@ -30,10 +30,6 @@ This web page uses the following external libraries:
 
 - Bootstrap 5.0.0
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Contact
 
 If you have any questions or feedback about this project, please contact me at ramirojguillen@gmail.com.
